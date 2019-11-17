@@ -1,0 +1,32 @@
+.list-item {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 25px;
+    height: 30px;
+}
+
+.list-item:hover {
+    background-color: aliceblue;
+}
+
+.list-item:hover .list-item__remove-item {
+    display: inline-block;
+}
+
+.list-item__remove-item {
+    display: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url("images/remove.svg");
+    background-size: 20px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.list-item__remove-item:hover {
+    background-color: lightgray;
+}

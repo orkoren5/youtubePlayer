@@ -1,0 +1,15 @@
+.btn-add {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.insertion-bar {
+    margin: 10px;
+    display: flex;
+}
+
+.insertion-input {
+    height: 35px;
+    margin-right: 10px;
+}

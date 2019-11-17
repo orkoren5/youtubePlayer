@@ -1,0 +1,4 @@
+.playlist {
+    flex-direction: 1;
+    overflow-y: auto;
+}
